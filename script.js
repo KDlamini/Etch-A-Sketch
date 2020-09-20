@@ -3,7 +3,7 @@ const startBtn = document.querySelector('#startGrid');
 const clearBtn = document.querySelector('#clearGrid');
 
 function fillGrid(inputValue) {
-    let squareHeight  = 100/inputValue + "vw";
+    let squareHeight  = container.clientHeight/inputValue + "px";
     let gridSize = inputValue ** 2;
 
     for (let i = 0; i < gridSize; i++){
